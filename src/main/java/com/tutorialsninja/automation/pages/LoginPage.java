@@ -37,5 +37,9 @@ public LoginPage() {
 	
 	@FindBy(xpath = "//a[@title='Shopping Cart']//i[@class='fa fa-shopping-cart']")
 	public static WebElement shoppingCart;
+	
+	@FindBy(xpath = "//a[normalize-space()='Logout']")
+	public static WebElement logout;
+	
 
 }

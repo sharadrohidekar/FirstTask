@@ -1,5 +1,6 @@
 Feature: Products from the Store
-
+			
+			@YouStore
 			Scenario: Verify the products from the Your Store
 			Given I launch the application
 	    And I click on My Account 
