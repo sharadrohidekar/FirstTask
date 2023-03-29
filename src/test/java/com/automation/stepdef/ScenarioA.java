@@ -33,7 +33,6 @@ public class ScenarioA extends Base {
 	@Then("user clicks on login button.")
 	public void user_clicks_on_login_button() {
 		Elements.click(ScenarioAPage.loginButton);
-	   
 	}
 
 	
