@@ -31,8 +31,9 @@ public class ScenarioA extends Base {
 	    Elements.TypeText(ScenarioAPage.password, string);
 	}
 	@Then("user clicks on login button.")
-	public void user_clicks_on_login_button() {
+	public void user_clicks_on_login_button() throws InterruptedException {
 		Elements.click(ScenarioAPage.loginButton);
+		Thread.sleep(2000);
 	}
 
 	
