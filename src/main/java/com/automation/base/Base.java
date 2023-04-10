@@ -1,6 +1,7 @@
 package com.automation.base;
 
 import org.apache.log4j.Logger;
+
 import org.openqa.selenium.WebDriver;
 
 import com.automation.config.ConfigurationReader;
